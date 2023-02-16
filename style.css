@@ -1,33 +1,46 @@
-body {
-    background: black;
+#mainmenu {
+    margin: 20px 0px 0px 12px;
+    padding: 12px;
 }
-/*#mainmenu li {
-    display:inline-block;
-}*/
-#nav {
-    margin: 20px; /*отступ ленты меню сверху*/ 
-    padding: 12px; /*отступ ленты меню слева*/
-    list-style: none; /*маркеры*/
+.menu {
+    margin: 0px;
+    padding: 0px;
 }
-#nav a {
+.menu a {
     font-family: Arial;
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: none; /*подчеркивания*/
     display: block;
     padding: 15px;
 }
-#nav a:hover {
-    color: #000;
+.menu a:hover {
+    color:white;
 }
-#mainmenu ul li {
-    background: #E2B6E2;
-    box-shadow: 0 5px 10px #FFF; /*тень*/
+.menu li {
+    background: #daacda;
+    box-shadow: 0 5px 10px black; /*тень*/
     position: relative;
-    float:left;
+    float: left;
+    list-style: none; /*маркеры*/
 }
-#nav ul {
+.menu ul {
     position: absolute;
     left: 0;
+    display: none;
 }
-
+.menu li:hover ul {
+    display: block;
+}
+.menu2 li {
+    background: black;
+}
+.menu2 a {
+    color: #E4717A;
+}
+.menu3 li{
+    background: #d2b48c;
+}
+.menu3 a {
+    color: #ffec00;
+}
