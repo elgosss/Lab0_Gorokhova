@@ -1,0 +1,33 @@
+body {
+    background: black;
+}
+/*#mainmenu li {
+    display:inline-block;
+}*/
+#nav {
+    margin: 20px; /*отступ ленты меню сверху*/ 
+    padding: 12px; /*отступ ленты меню слева*/
+    list-style: none; /*маркеры*/
+}
+#nav a {
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; /*подчеркивания*/
+    display: block;
+    padding: 15px;
+}
+#nav a:hover {
+    color: #000;
+}
+#mainmenu ul li {
+    background: #E2B6E2;
+    box-shadow: 0 5px 10px #FFF; /*тень*/
+    position: relative;
+    float:left;
+}
+#nav ul {
+    position: absolute;
+    left: 0;
+}
+
